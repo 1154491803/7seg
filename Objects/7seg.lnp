@@ -1,0 +1,7 @@
+".\Objects\STARTUP.obj",
+".\Objects\main.obj",
+".\lib\SC92R342_HighSensitive_lib_T1_S_V2.0.0.LIB",
+".\Objects\S_TouchKeyCFG.obj" 
+TO ".\Objects\7seg" 
+PRINT(".\Listings\7seg.m51") RAMSIZE(256) 
+CODE( 0x100 )
